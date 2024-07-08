@@ -14,4 +14,7 @@ public class Calculator {
         }
         return (double) a / b;
     }
+    public int moduloTwoIntegers(int a, int b){
+        return a % b;
+    }
 }

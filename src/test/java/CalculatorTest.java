@@ -27,4 +27,10 @@ public class CalculatorTest {
         double result = calculator.divideTwoIntegers(6, 3);
         assertEquals(2, result);
     }
+    @Test
+    public void testModuloTwoIntegers(){
+        Calculator calculator = new Calculator();
+        int result = calculator.moduloTwoIntegers(6, 2);
+        assertEquals(0, result);
+    }
 }
